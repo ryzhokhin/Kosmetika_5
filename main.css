@@ -1,8 +1,12 @@
-
+*{
+    max-width: auto;
+    background-repeat: no-repeat;
+}
 
 .header {
     height: 175px;
-    background-image: url(Pictures/Screenshot_8.png)
+    background-image: url(Pictures/Screenshot_8.png);
+    padding: 0 75px;
 }
 
 .fb {
@@ -26,7 +30,6 @@
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
-    margin-right: 70px;
 }
 
 .buttonkorzina:hover {
@@ -134,4 +137,13 @@ button:before {
     color: white;
     text-decoration: none;
 
+}
+
+.third{
+    margin-left: 75px;
+
+}
+
+.fourth{
+    margin-left: 25px;
 }
